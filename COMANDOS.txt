@@ -1,0 +1,8 @@
+stage
+commit
+git add
+git status
+git commit - "cambios realizados"
+
+git add . 
+git commit - "cambios realizados"
