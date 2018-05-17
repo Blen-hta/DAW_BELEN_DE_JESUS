@@ -1,0 +1,21 @@
+{
+  "name": "MyBootstrapApp",
+  "homepage": "https://github.com/Blen-hta/DAW_BELEN_DE_JESUS",
+  "authors": [
+    "Blen-hta <Blen-hta>"
+  ],
+  "description": "How to use bootstrap framework",
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "boostrap": "^4.1.1",
+    "fontawesome": "^5.0.13"
+  }
+}
