@@ -8,7 +8,7 @@
   <!--se agrega la libreria de boostrap-->
   <link rel="stylesheet" href="bower_components/boostrap/dist/css/bootstrap.css">
   <!--se agrega la libreria de iconos fontawesome-->
-  <link rel="stylesheet" href="bower_components/fontawesone/web-fonts-with-css/css/fontawesome.css">
+  <link rel="stylesheet" href="bower_components\fontawesome\web-fonts-with-css\css\fontawesome-all.css">
 
 </head>
 <body>
@@ -36,6 +36,18 @@
 <script src="bower_components/jquery/dist/jquery.js"></script>
 <!--se agrega la libreria de boostrap js-->
 <script src="bower_components/boostrap/dist/js/bootstrap.js"></script>
+
+<script src="bower_components/hammerjs/hammer.js"></script>
+<script>
+  var $body = document.body;
+  var hammertime = new Hammer($body);
+  hammertime.on('swipeleft', function(ev) {
+	  console.log(ev);
+  });
+  hammertime.on('swiperight', function(ev) {
+	  console.log(ev);
+  });
+</script>
 
 </body>
 </html>
