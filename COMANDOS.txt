@@ -5,4 +5,11 @@ git status
 git commit - "cambios realizados"
 
 git add . 
-git commit - "cambios realizados"
+git commit -m "cambios realizados"
+git push origin master
+
+
+browser-sync start --server --files "**/*"
+
+PersonalUTT_Biblioteca
+biblio2016
